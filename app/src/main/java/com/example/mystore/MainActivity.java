@@ -5,8 +5,13 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
 import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.core.content.ContextCompat;
+
+import com.bumptech.glide.Glide;
+import com.example.mystore.application.HomeApplication;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,21 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        openChromeButton = findViewById(R.id.openChromeButton);
-
-        openChromeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openInChrome("https://spu123.itstep.click/images/1.jpg");
-            }
-        });
-    }
-
-    private void openInChrome(String url) {
-        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-        builder.setToolbarColor(ContextCompat.getColor(this, R.color.colorPrimary));
-        CustomTabsIntent customTabsIntent = builder.build();
-        customTabsIntent.launchUrl(this, Uri.parse(url));
+        ImageView ivLogo =findViewById(R.id.ivLogo);
+        String url = "https://spu123.itstep.click/images/1.jpg";
+        Glide.with(HomeApplication.getAppContext()).load(url).into(ivLogo);
     }
 }
