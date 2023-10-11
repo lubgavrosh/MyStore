@@ -10,7 +10,7 @@
         android:id="@+id/ivLogo"
         android:layout_width="324dp"
         android:layout_height="243dp"
-        android:layout_marginBottom="428dp"
+        android:layout_marginBottom="420dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 
