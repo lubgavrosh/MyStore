@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mystore.category.CategoryCreateActivity;
-
+import com.example.mystore.category.CategoryUpdateActivity;
 public class BaseActivity extends AppCompatActivity {
 
     @Override
@@ -28,6 +28,13 @@ public class BaseActivity extends AppCompatActivity {
         }
         else if(select==R.id.m_home) {
             Intent intent = new Intent(BaseActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+            return true;
+        }
+        else if (select == R.id.m_edit) {
+
+            Intent intent = new Intent(BaseActivity.this, CategoryUpdateActivity.class);
             startActivity(intent);
             finish();
             return true;

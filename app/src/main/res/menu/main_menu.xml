@@ -15,5 +15,8 @@
     <item
         android:id="@+id/m_create"
         android:title="Додати" />
+    <item
+        android:id="@+id/m_edit"
+        android:title="Оновити" />
 
 </menu>

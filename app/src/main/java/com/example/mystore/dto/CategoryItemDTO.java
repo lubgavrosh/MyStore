@@ -37,4 +37,8 @@ public class CategoryItemDTO {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public String getImageUrl() {
+        return image; // Повертаємо URL зображення
+    }
 }
