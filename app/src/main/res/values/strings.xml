@@ -4,4 +4,13 @@
     <string name="category_image">Фото</string>
     <string name="category_description">Опис</string>
     <string name="category_add">Створити</string>
+    <string name="register_header" />
+    <string name="labelEmail" />
+    <string name="new_Account_P" />
+    <string name="labelRegister" />
+    <string name="labelLogin" />
+    <string name="labelPassword" />
+    <string name="labelName" />
+    <string name="login_header" />
+    <string name="categoryitem_picdescription" />
 </resources>

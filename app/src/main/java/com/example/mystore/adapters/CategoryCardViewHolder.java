@@ -1,4 +1,4 @@
-package com.example.mystore.category;
+package com.example.mystore.adapters;
 
 import android.view.View;
 import android.widget.ImageView;

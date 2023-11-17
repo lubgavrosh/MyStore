@@ -1,4 +1,4 @@
-package com.example.mystore.category;
+package com.example.mystore.activities.category;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -10,11 +10,11 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.mystore.BaseActivity;
-import com.example.mystore.MainActivity;
+import com.example.mystore.activities.BaseActivity;
+import com.example.mystore.activities.MainActivity;
 import com.example.mystore.R;
 import com.example.mystore.application.HomeApplication;
-import com.example.mystore.dto.CategoryItemDTO;
+import com.example.mystore.dto.category.CategoryItemDTO;
 import com.example.mystore.servises.ApplicationNetwork;
 import com.google.android.material.textfield.TextInputLayout;
 

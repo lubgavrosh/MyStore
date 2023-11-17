@@ -1,16 +1,13 @@
-package com.example.mystore;
+package com.example.mystore.activities;
 
 import android.os.Bundle;
-import android.widget.ImageView;
 
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
-import com.example.mystore.application.HomeApplication;
-import com.example.mystore.category.CategoriesAdapter;
-import com.example.mystore.dto.CategoryItemDTO;
+import com.example.mystore.R;
+import com.example.mystore.adapters.CategoriesAdapter;
+import com.example.mystore.dto.category.CategoryItemDTO;
 import com.example.mystore.servises.ApplicationNetwork;
 
 

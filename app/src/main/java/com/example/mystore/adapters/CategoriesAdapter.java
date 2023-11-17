@@ -1,4 +1,4 @@
-package com.example.mystore.category;
+package com.example.mystore.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +11,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.mystore.R;
 import com.example.mystore.application.HomeApplication;
-import com.example.mystore.dto.CategoryItemDTO;
+import com.example.mystore.dto.category.CategoryItemDTO;
 
 import java.util.List;
 

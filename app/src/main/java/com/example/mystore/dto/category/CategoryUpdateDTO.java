@@ -1,4 +1,4 @@
-package com.example.mystore.dto;
+package com.example.mystore.dto.category;
 
 import java.io.File;
 

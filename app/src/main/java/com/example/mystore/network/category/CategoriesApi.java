@@ -1,6 +1,6 @@
-package com.example.mystore.network;
+package com.example.mystore.network.category;
 
-import com.example.mystore.dto.CategoryItemDTO;
+import com.example.mystore.dto.category.CategoryItemDTO;
 
 import java.util.List;
 

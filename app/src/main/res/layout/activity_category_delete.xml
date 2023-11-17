@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".category.CategoryDeleteActivity">
+    tools:context=".activities.category.CategoryDeleteActivity">
 
     <TextView
         android:layout_width="wrap_content"

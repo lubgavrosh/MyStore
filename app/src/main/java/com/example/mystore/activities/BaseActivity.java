@@ -1,4 +1,4 @@
-package com.example.mystore;
+package com.example.mystore.activities;
 
 import android.content.Intent;
 import android.view.Menu;
@@ -7,8 +7,9 @@ import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.mystore.category.CategoryCreateActivity;
-import com.example.mystore.category.CategoryUpdateActivity;
+import com.example.mystore.R;
+import com.example.mystore.activities.category.CategoryCreateActivity;
+import com.example.mystore.activities.category.CategoryUpdateActivity;
 public class BaseActivity extends AppCompatActivity {
 
     @Override

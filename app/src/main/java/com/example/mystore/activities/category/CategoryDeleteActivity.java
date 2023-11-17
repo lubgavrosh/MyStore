@@ -1,4 +1,4 @@
-package com.example.mystore.category;
+package com.example.mystore.activities.category;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.view.View;
 import android.widget.Button;
 
 
-import com.example.mystore.BaseActivity;
-import com.example.mystore.MainActivity;
+import com.example.mystore.activities.BaseActivity;
+import com.example.mystore.activities.MainActivity;
 import com.example.mystore.R;
-import com.example.mystore.network.CategoriesApi;
+import com.example.mystore.network.category.CategoriesApi;
 import com.example.mystore.servises.ApplicationNetwork;
 
 import retrofit2.Call;
